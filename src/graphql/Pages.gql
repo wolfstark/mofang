@@ -1,0 +1,11 @@
+#import "./PageFragment.gql"
+
+query pages($input: PagesQueryInput) {
+  pages(input: $input) {
+    pages{
+      ...Page
+    }
+    length
+    currentPage
+  }
+}

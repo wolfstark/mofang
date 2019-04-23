@@ -1,0 +1,9 @@
+#import "./PageFragment.gql"
+
+query page($_id: ObjectId) {
+  page(_id: $_id) {
+    ...Page
+    pageData
+    sourceCode
+  }
+}

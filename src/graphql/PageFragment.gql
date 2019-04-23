@@ -1,0 +1,12 @@
+fragment Page on Page {
+  _id
+  name
+  screenshot
+  # pageData
+  # sourceCode
+  status
+  createdAt
+  updatedAt
+  createdBy
+  updatedBy
+}

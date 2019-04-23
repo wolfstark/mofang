@@ -1,0 +1,7 @@
+#import "./PageFragment.gql"
+
+mutation delPage($input: PageInput!) {
+  delPage(input: $input) {
+    ...Page
+  }
+}

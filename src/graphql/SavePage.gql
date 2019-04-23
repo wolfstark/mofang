@@ -1,0 +1,7 @@
+#import "./PageFragment.gql"
+
+mutation savePage($input: PageInput!) {
+  savePage(input: $input) {
+    ...Page
+  }
+}
