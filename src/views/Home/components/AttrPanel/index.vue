@@ -9,7 +9,7 @@
         <v-expansion-panel :value="0">
           <v-expansion-panel-content>
             <template slot="header">
-              <div>样式</div>
+              <div>属性</div>
             </template>
             <v-card>
               <v-card-text>
@@ -30,7 +30,7 @@
           <v-expansion-panel-content>
             <template slot="header">
               <div>
-                属性
+                样式
               </div>
             </template>
             <v-card>
@@ -42,6 +42,7 @@
                                  v-model="props.style[_.key]"
                                  :items="_.data"
                                  :label="_.label"
+                                 format="css"
                                  :placeholder="JSON.stringify(_.default)"
                                  :required="_.required"
                                  @input="handleChange"

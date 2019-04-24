@@ -1,11 +1,11 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 // import Home from '../views/Home/index.vue';
-// import MobilePreview from '../views/MobilePreview/index.vue';
+import MobilePreview from '../views/MobilePreview/index.vue';
 // import Admin from '../views/Admin/index.vue';
 
 const Home = () => import('../views/Home/index.vue');
-const MobilePreview = () => import('../views/MobilePreview/index.vue');
+// const MobilePreview = () => import('../views/MobilePreview/index.vue');
 const Admin = () => import('../views/Admin/index.vue');
 
 Vue.use(Router);
