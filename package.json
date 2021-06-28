@@ -23,7 +23,7 @@
     "roboto-fontface": "*",
     "shortid": "^2.2.14",
     "uppercamelcase": "^3.0.0",
-    "vant": "^1.6.17",
+    "vant": "^2.1.8",
     "vue": "^2.6.10",
     "vue-apollo": "^3.0.0-beta.29",
     "vue-class-component": "^7.0.2",
