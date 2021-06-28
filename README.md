@@ -1,29 +1,41 @@
-# mofang
+<h1 align="center">Welcome to mofang 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/mofang" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/mofang.svg">
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/wenxi103" target="_blank">
+    <img alt="Twitter: wenxi103" src="https://img.shields.io/twitter/follow/wenxi103.svg?style=social" />
+  </a>
+</p>
 
-## Project setup
-```
+> H5可视化构建工具，自动生成运营活动页
+
+## Install
+
+```sh
 yarn install
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
+## Usage
+
+```sh
+yarn electron:serve
 ```
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Author
 
-### Run your tests
-```
-yarn run test
-```
+👤 **wenxi**
 
-### Lints and fixes files
-```
-yarn run lint
-```
+* Website: https://wenxi.tech/
+* Twitter: [@wenxi103](https://twitter.com/wenxi103)
+* Github: [@wolfstark](https://github.com/wolfstark)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
