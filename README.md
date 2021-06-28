@@ -24,6 +24,9 @@ yarn install
 ```sh
 yarn electron:serve
 ```
+### Documents
+
+- [H5可视化构建工具原理解析](https://wenxi.tech/principle-analysis-of-H5-visual-construction-tool/)
 
 ## Author
 
