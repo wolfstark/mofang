@@ -11,7 +11,7 @@
   </a>
 </p>
 
-> H5可视化构建工具，自动生成运营活动页
+> H5可视化构建工具，自动生成运营活动页（后端暂未开源）
 
 ## Install
 
@@ -27,6 +27,13 @@ yarn electron:serve
 ### Documents
 
 - [H5可视化构建工具原理解析](https://wenxi.tech/principle-analysis-of-H5-visual-construction-tool/)
+
+### Tech stack
+
+- Typescript
+- Vue
+- GraphQL
+- Stylus
 
 ## Author
 
